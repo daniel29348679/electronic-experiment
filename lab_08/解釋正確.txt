@@ -1,0 +1,1 @@
+可以看到，在select==1的情況下，counter就跟正常的計數器一樣運作，select==0,counter = a&b，所以都正確。
