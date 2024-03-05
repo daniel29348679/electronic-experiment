@@ -1,0 +1,86 @@
+$date
+	Sun Dec 24 00:17:11 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module stimulus $end
+$scope module alu $end
+$var wire 4 ! a [3:0] $end
+$var wire 4 " b [3:0] $end
+$var wire 4 # c [3:0] $end
+$var wire 1 $ clk $end
+$var wire 5 % result [4:0] $end
+$var wire 3 & sel [2:0] $end
+$var reg 5 ' r [4:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx '
+bx &
+bx %
+0$
+b1 #
+b111 "
+b101 !
+$end
+#5
+b0 &
+1$
+#10
+0$
+#15
+b0 %
+b0 '
+b111 &
+1$
+#20
+0$
+#25
+b101 %
+b101 '
+b100 &
+1$
+#30
+0$
+#35
+b1010 %
+b1010 '
+b101 &
+1$
+#40
+0$
+#45
+b0 %
+b0 '
+b11 &
+1$
+#50
+0$
+#55
+b11110 %
+b11110 '
+b10 &
+1$
+#60
+0$
+#65
+b1100 %
+b1100 '
+b1 &
+1$
+#70
+0$
+#75
+b10 %
+b10 '
+b110 &
+1$

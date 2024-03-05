@@ -1,0 +1,153 @@
+$date
+	Thu Jan 04 09:31:56 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module stimulus $end
+$scope module vending_machine $end
+$var wire 1 ! clk $end
+$var wire 32 " costOfTicket [31:0] $end
+$var wire 32 # destination [31:0] $end
+$var wire 32 $ howManyTicket [31:0] $end
+$var wire 32 % money [31:0] $end
+$var wire 32 & moneyToPay [31:0] $end
+$var wire 32 ' origin [31:0] $end
+$var wire 1 ( reset $end
+$var wire 32 ) totalMoney [31:0] $end
+$var reg 32 * Tickets [31:0] $end
+$var reg 32 + returnmoney [31:0] $end
+$var reg 32 , state [31:0] $end
+$var reg 32 - tempmoney [31:0] $end
+$var reg 32 . tempprice [31:0] $end
+$var reg 32 / tickamount [31:0] $end
+$var reg 32 0 totalcost [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx 0
+bx /
+bx .
+bx -
+b11 ,
+bx +
+bx *
+bx )
+1(
+bx '
+bx &
+bx %
+bx $
+bx #
+bx "
+0!
+$end
+#5
+b0 *
+1!
+#10
+b0 ,
+0!
+b11 #
+b101 '
+0(
+#15
+b0 +
+b0 /
+b1111 "
+b1111 .
+b0 &
+b0 0
+b0 )
+b0 -
+1!
+#20
+b1 ,
+0!
+b100 $
+#25
+b100 /
+b111100 &
+b111100 0
+1!
+#30
+b10 ,
+0!
+b101 %
+#35
+b101 )
+b101 -
+1!
+#40
+0!
+b1010 %
+#45
+b1111 )
+b1111 -
+1!
+#50
+0!
+b110010 %
+#55
+b1000001 )
+b1000001 -
+1!
+#60
+b11 ,
+0!
+b0 %
+#65
+b100 *
+b101 +
+1!
+#70
+b0 ,
+0!
+b100 #
+b11 '
+#75
+b0 +
+b0 *
+b0 /
+b1010 "
+b1010 .
+b0 &
+b0 0
+b0 )
+b0 -
+1!
+#80
+b1 ,
+0!
+b10 $
+#85
+b10 /
+b10100 &
+b10100 0
+1!
+#90
+b10 ,
+0!
+b1010 %
+#95
+b1010 )
+b1010 -
+1!
+#100
+b11 ,
+0!
+1(
+b0 %
+#105
+b1010 +
+1!
+#110
+0!
